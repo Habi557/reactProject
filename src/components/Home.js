@@ -1,10 +1,8 @@
 import { Container, Card, CardTitle, CardText, Button, Nav } from "reactstrap";
 import { home } from "../css/home.css"
-import { ImHome3 } from "react-icons/im";
 import Leftcard from "./cards/Leftcard";
 import Rightcard from "./cards/Rightcard";
 import Middlecard from "./cards/Middlecard";
-import Header from './Header';
 import { useEffect } from "react";
 
 const Home = () => {
