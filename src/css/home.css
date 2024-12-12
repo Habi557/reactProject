@@ -1,0 +1,77 @@
+/* .width{
+    width: 100%;
+} */
+/* a.nav-link {
+    color:black;
+    text-align: center;
+} */
+/* a.nav-link div{
+    font-size: 14px;
+} */
+ svg{
+    font-size: x-large;
+}
+.linkedIcon{
+    font-size: xxx-large;
+
+}
+
+
+.Icon {
+    /* padding: 10px; */
+    text-align: center;
+    margin: 10px;
+}
+
+a#RouterNavLink {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* Home */
+/* .cards {
+    display: flex;
+    justify-content: center;
+} */
+
+.my-2.card.card-body {
+    border: none;
+}
+
+.cards {
+    gap: 25px;
+    margin: 50px;
+    display: inline-grid;
+    grid-template-columns: 250px 576px 250px;
+    /* grid-template-columns: auto auto auto; */
+    align-items: start;
+}
+/* .width {
+    width: 250px;
+} */
+.card {
+    border: none;
+}
+
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+  }
+.larger {
+    font-size: larger;
+}
+
+@media (max-width: 480px) {
+
+    .parent {
+        display: block;
+    }
+    .cards {
+        display: block;
+        margin: 5px;
+    }
+  
+}

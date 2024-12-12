@@ -1,0 +1,38 @@
+
+.Navbar ul {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    font-size: 10px;
+
+}
+.Navbar {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    background-color: #fff;
+}
+.active {
+    border-bottom: 2px solid black; /* Change color and thickness as needed */
+
+}
+@media (max-width: 480px) {
+
+
+   .Navbar ul {
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+
+   }
+   .Icon a {
+    text-indent: -9999px; /* Hides the text */
+    overflow: hidden;
+   }
+   .active {
+   border: none;
+}
+
+}

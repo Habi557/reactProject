@@ -1,0 +1,50 @@
+.card-body {
+    padding: 0px;
+}
+.backgroundphoto img {
+  height: 70px;
+}
+.profilephoto {
+    display: inline-block;
+    border: 1px solid;
+    border-radius: 50%;
+    /* padding: 5px; */
+}
+.profilephoto img {
+    display: block;
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+
+    /* center the image */
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 28px;
+}
+/* .text-center {
+    padding: 10px;
+    
+} */
+.font{
+    font-size: 0.7rem;
+    line-height: 1.33333;
+}
+.no-bullets {
+
+    list-style-type: none;
+    padding-left: 0px;
+    margin: 0px;
+}
+.hover:hover {
+
+    background-color: whitesmoke;
+}
+.hr {
+    margin: 0rem;
+}
+.fabookmark {
+    width: 16px;
+    height: 16px;
+}
+

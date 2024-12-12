@@ -1,0 +1,79 @@
+.profilePhoto {
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.profilePhoto img{
+    display: block;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+.postinput input{
+    border-radius: 35px;
+}
+.mediacolor {
+    color: #378fe9;
+}
+.calendercolor {
+    color: #c37d16;
+}
+.articlecolor {
+    color: #e06847;
+}
+
+.position {
+    position: relative;
+    right: 47px;
+    bottom: 3px;
+}
+.w-max-content {
+    width: -webkit-max-content; /* Safari/Chrome */
+    width: -moz-max-content; /* Firefox */
+    width: max-content;
+}
+/* Popover styling */
+
+.popover {
+ width: 200px;  
+ height: 50px; 
+}
+  .popover-header {
+  }
+  
+  .popover-body {
+  }
+  .font-xs {
+    font-size: x-small; /* or use a specific value like 0.75rem */
+}
+
+.divtext{
+    cursor: text;
+    color: gray;
+    height: 100px;
+    outline: none;
+    margin: 10px;
+    
+}
+
+.outline {
+    outline: none
+}
+.iconhover {
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out; /* Smooth transition */
+
+  }
+  
+  .iconhover:hover {
+    color: #1DA1F2; /* Change color on hover */
+    transform: translateY(-5px) scale(1.5); /* Move up and increase size */
+  }
+  .likecolor {
+    fill: red;
+  }
+  @media (max-width: 480px) {
+  
+    .repost {
+        overflow: hidden;
+    }
+}
